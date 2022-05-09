@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Rabbb</Authors>
+    <Description>A functional programing helper.</Description>
+    <Copyright>Rabbb</Copyright>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression> MPL-2.0</PackageLicenseExpression>
+    <SignAssembly>False</SignAssembly>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+</Project>
