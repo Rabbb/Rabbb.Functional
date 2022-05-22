@@ -2,4 +2,4 @@
 **/obj/*
 **/bin/**/*
 !**/bin/**/
-!**/bin/**/*.nupkg
+!**/bin/Release/*.nupkg
