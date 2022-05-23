@@ -36,4 +36,4 @@ An exception result By return @Except(exception_value);
 Look POI.cs and POIStatic.cs to learn more.
 
 ---
-It's an sync methods chain. Tf you need async chain, use System.Threading.Tasks.Task instead.
+It's an sync methods chain. If you need async chain, use System.Threading.Tasks.Task instead.
