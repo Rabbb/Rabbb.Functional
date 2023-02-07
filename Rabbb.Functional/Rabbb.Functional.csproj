@@ -13,7 +13,8 @@
     <SignAssembly>False</SignAssembly>
     <Version>1.1.1</Version>
     <PackageProjectUrl>https://github.com/Rabbb/Rabbb.Functional</PackageProjectUrl>
-    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <IsPublishable>False</IsPublishable>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
