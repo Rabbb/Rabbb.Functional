@@ -11,7 +11,7 @@
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression> MPL-2.0</PackageLicenseExpression>
     <SignAssembly>False</SignAssembly>
-    <Version>1.1.1</Version>
+    <Version>1.1.2</Version>
     <PackageProjectUrl>https://github.com/Rabbb/Rabbb.Functional</PackageProjectUrl>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
     <IsPublishable>False</IsPublishable>
