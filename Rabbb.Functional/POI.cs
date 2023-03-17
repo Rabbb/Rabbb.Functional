@@ -24,6 +24,12 @@ namespace Rabbb.Functional
         private bool bSolve = false;
         private T? resolve;
 
+        public bool IsOk => this.bSolve;
+
+        public bool IsExcept => this.Exception != null;
+
+        public PoiType Type => this.IsOk ? PoiType.True : (this.IsExcept ? PoiType.Except : PoiType.False);
+
         /// <summary>True result.</summary>
         public T? Resolve {
             get => this.resolve;
