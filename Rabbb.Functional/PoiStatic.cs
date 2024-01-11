@@ -16,21 +16,22 @@ namespace Rabbb.Functional
     /// <summary>
     ///  POI Static Helper.
     /// </summary>
-    public static class POIStatic
+    public static class PoiStatic
     {
         /// <summary>
         /// Return a result that is true. <br/>2022-5-9 10:06:55 Ciaran
         /// </summary>
-        public static POI<T, F> True<T, F>(T? @true) => new POI<T, F>() { Resolve = @true };
+        public static Poi<T, F> True<T, F>(T? @true) => new Poi<T, F>() { Resolve = @true };
 
         /// <summary>
         /// Return a result that is false.  <br/>2022-5-9 10:06:55 Ciaran
         /// </summary>
-        public static POI<T, F> False<T, F>(F? @false) => new POI<T, F>() { Reject = @false };
+        public static Poi<T, F> False<T, F>(F? @false) => new Poi<T, F>() { Reject = @false };
 
         /// <summary>
         /// Return a result that neither true or false, which is a program exception.  <br/>2022-5-9 10:06:55 Ciaran
         /// </summary>
-        public static POI<T, F> Except<T, F>(Exception ex) => new POI<T, F>() { Exception = ex };
+        public static Poi<T, F> Except<T, F>(Exception ex) => new Poi<T, F>() { Exception = ex };
+
     }
 }
